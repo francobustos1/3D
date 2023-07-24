@@ -1,0 +1,570 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1688211067143549, "dur": 137430, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688211067143581, "dur": 11750, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688211067155333, "dur": 117768, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688211067273102, "dur": 7876, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688211067281304, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688211067211804, "dur":879, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067212693, "dur":156, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688211067212897, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688211067212927, "dur":139, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688211067213092, "dur":916, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067214008, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247730, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247735, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247742, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247744, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247751, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247753, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247759, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247761, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247766, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247778, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067247798, "dur":1102, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688211067213696, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067214087, "dur":1789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215881, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215915, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215928, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215949, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215958, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215971, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215980, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688211067215992, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216002, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216016, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216027, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216042, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216116, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216147, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216158, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216171, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216183, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216194, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216207, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216219, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216227, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216238, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216247, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216258, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216267, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216277, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216286, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216297, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216306, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216315, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216326, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216336, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216344, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216354, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216362, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216372, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216380, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216390, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216399, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216410, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216418, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216428, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216436, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216445, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216454, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216463, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216471, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216481, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216489, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216499, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216561, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216576, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216584, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216598, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216608, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216618, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067216627, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067217229, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067217240, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688211067217326, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067217338, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067217353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067218266, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067220267, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067220282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067220287, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067221479, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067221577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067221583, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067222498, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067222512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067222517, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067223996, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067224012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067224017, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067225308, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067225323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067225328, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067227019, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067227037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067227042, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067228211, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets11.resource" }}
+,{ "pid":12345, "tid":1, "ts":1688211067228244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067228248, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets11.resource" }}
+,{ "pid":12345, "tid":1, "ts":1688211067229305, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":1, "ts":1688211067229318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067229323, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":1, "ts":1688211067230298, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067230314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067230319, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1688211067231242, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067231258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067231264, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067232751, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level8" }}
+,{ "pid":12345, "tid":1, "ts":1688211067232766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067232769, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level8" }}
+,{ "pid":12345, "tid":1, "ts":1688211067233608, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067233623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067233627, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067234428, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067234441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067234445, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067235109, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level23.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067235123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067235127, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level23.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067235837, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level21.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067235855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067235859, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level21.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067236589, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1688211067236605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067236609, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1688211067237224, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level18.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067237238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067237242, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level18.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688211067238469, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level16" }}
+,{ "pid":12345, "tid":1, "ts":1688211067238483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688211067238487, "dur":9111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level16" }}
+,{ "pid":12345, "tid":1, "ts":1688211067247610, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1688211067247612, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067213598, "dur":446, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067214046, "dur":1826, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215881, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215884, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215907, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215908, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215920, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215936, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215945, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215959, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215972, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215987, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067215995, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216011, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216020, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216034, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216065, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual.exe" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216080, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216090, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216103, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216112, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216125, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216136, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216153, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216169, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216180, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216191, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216201, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216212, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216225, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216235, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216246, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216255, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216265, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216274, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216286, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216295, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216305, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216313, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216326, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216335, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216347, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216356, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216367, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216375, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216385, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216393, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216403, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216412, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216422, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216430, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216439, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216447, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216457, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216466, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216479, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216488, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216498, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216506, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216567, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216578, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216594, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216603, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216614, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067216625, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217083, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217100, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217113, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217122, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217132, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217139, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217148, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217156, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217166, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217174, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217185, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217193, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217206, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217268, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067217619, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067219671, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067219686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067219690, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067220934, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067220950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067220954, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067222267, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067222282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067222286, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067223354, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067223369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067223373, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067224635, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets17.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067224694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067224700, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets17.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067226646, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067226662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067226674, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067227721, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets13.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067227735, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067227744, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets13.resource" }}
+,{ "pid":12345, "tid":2, "ts":1688211067228875, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067228889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067228894, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067229839, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067229853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067229874, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067231852, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067231882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067231889, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688211067232707, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level8.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067232721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067232726, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level8.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067233529, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1688211067233543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067233547, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1688211067234227, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1688211067234239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067234244, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1688211067234862, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067234878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067234882, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067235422, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level22.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067235436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067235441, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level22.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067236134, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level20.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067236147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067236151, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level20.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067236946, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level19.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067236959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067236963, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level19.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067237648, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level17.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067237661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067237664, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level17.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067238626, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level15.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067238640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067238644, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level15.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067239705, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level14" }}
+,{ "pid":12345, "tid":2, "ts":1688211067239719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067239723, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level14" }}
+,{ "pid":12345, "tid":2, "ts":1688211067240332, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level12.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067240347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067240351, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level12.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067241165, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level11" }}
+,{ "pid":12345, "tid":2, "ts":1688211067241178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067241182, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level11" }}
+,{ "pid":12345, "tid":2, "ts":1688211067242371, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067242386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067242391, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1688211067242994, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1688211067243008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067243012, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1688211067243738, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1688211067243754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688211067243759, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1688211067244506, "dur":3161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067213884, "dur":205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067214089, "dur":1811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067215901, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1688211067215940, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067215956, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1688211067215972, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067215981, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1688211067215995, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216004, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216019, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216030, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216063, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216073, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216085, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216095, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216109, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216118, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216135, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216144, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216162, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216172, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216183, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216193, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216204, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216215, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216225, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216234, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216245, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216253, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216263, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216273, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216570, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216582, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216594, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216604, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216614, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216624, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216843, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067216860, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217159, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217173, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217185, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217193, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217205, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217298, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067217866, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688211067219650, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688211067219666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067219688, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688211067220890, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067220906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067220911, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067222087, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067222101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067222105, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067223160, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067223176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067223181, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067224157, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067224171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067224175, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067225229, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067225243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067225247, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067226838, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067226853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067226857, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067228020, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067228035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067228039, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067229615, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067229630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067229634, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688211067230597, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688211067230613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067230618, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688211067232543, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level9.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067232567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067232593, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level9.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067233454, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level7.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067233469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067233474, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level7.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067234068, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067234081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067234084, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067235010, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1688211067235022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067235026, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1688211067235888, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level21" }}
+,{ "pid":12345, "tid":3, "ts":1688211067235902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067235906, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level21" }}
+,{ "pid":12345, "tid":3, "ts":1688211067236518, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level20" }}
+,{ "pid":12345, "tid":3, "ts":1688211067236532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067236536, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level20" }}
+,{ "pid":12345, "tid":3, "ts":1688211067237334, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level18" }}
+,{ "pid":12345, "tid":3, "ts":1688211067237347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067237350, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level18" }}
+,{ "pid":12345, "tid":3, "ts":1688211067238095, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level17" }}
+,{ "pid":12345, "tid":3, "ts":1688211067238108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067238112, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level17" }}
+,{ "pid":12345, "tid":3, "ts":1688211067239221, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level15" }}
+,{ "pid":12345, "tid":3, "ts":1688211067239234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067239238, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level15" }}
+,{ "pid":12345, "tid":3, "ts":1688211067239977, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level13.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067239992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067240014, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level13.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067240770, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level12" }}
+,{ "pid":12345, "tid":3, "ts":1688211067240785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067240790, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level12" }}
+,{ "pid":12345, "tid":3, "ts":1688211067241705, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level10.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067241733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067241738, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level10.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067242799, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067242813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067242817, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688211067243946, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1688211067244033, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688211067244045, "dur":3666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067213688, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067214081, "dur":1794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215881, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215922, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215937, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215952, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215961, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215976, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215986, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1688211067215998, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216008, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216026, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216037, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216065, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216077, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216093, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216102, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216115, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216126, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216141, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216152, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216168, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216178, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216190, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216200, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216213, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216223, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216452, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216465, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216477, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216485, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216495, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216504, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216567, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216581, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216592, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216601, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216613, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216623, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216633, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216642, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216653, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216661, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216971, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216985, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067216995, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217002, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217011, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217018, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217027, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217034, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217043, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217064, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217072, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217079, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217088, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217095, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217106, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217114, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217124, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217133, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217142, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217151, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217161, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217169, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217179, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217187, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217197, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217206, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217234, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217243, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067217485, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1688211067220286, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067220304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067220309, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067221862, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067221876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067221881, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067222749, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets20.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067222767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067222772, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets20.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067224363, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067224378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067224382, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067225474, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets16.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067225490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067225495, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets16.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067227020, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067227037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067227042, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067228145, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067228159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067228163, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067229692, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067229706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067229711, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1688211067232095, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1688211067232426, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067232442, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1688211067232594, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067232613, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1688211067232634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067232639, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1688211067233750, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1688211067233763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067233767, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1688211067234509, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1688211067234521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067234525, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1688211067235123, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level23" }}
+,{ "pid":12345, "tid":4, "ts":1688211067235136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067235139, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level23" }}
+,{ "pid":12345, "tid":4, "ts":1688211067235834, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level22" }}
+,{ "pid":12345, "tid":4, "ts":1688211067235847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067235852, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level22" }}
+,{ "pid":12345, "tid":4, "ts":1688211067236564, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067236578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067236583, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067237192, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level19" }}
+,{ "pid":12345, "tid":4, "ts":1688211067237205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067237209, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level19" }}
+,{ "pid":12345, "tid":4, "ts":1688211067238268, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level16.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067238281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067238301, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level16.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067239265, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level14.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067239279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067239283, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level14.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067240303, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1688211067240317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067240321, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1688211067241113, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level11.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067241127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067241131, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level11.resS" }}
+,{ "pid":12345, "tid":4, "ts":1688211067242101, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1688211067242114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067242119, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1688211067242615, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1688211067242628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067242632, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1688211067243390, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/universidad/donde creo juegos/juegos/horror visual_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067243423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688211067243428, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/universidad/donde creo juegos/juegos/horror visual_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1688211067244301, "dur":3391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688211067249810, "dur":2143, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1688211067281355, "dur": 625, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688211067281292, "dur": 721, "ph": "X", "name": "Write chrome-trace events", "args": {} },
